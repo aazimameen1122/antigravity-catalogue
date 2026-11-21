@@ -1,209 +1,551 @@
 [
-  {
-    "id": "antislop",
-    "name": "antislop",
-    "description": "Anti Slop: Rules for AI Coding Agents. The core filter. Load always to stop generic AI slop.",
-    "category": "Quality & Filter",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop"
-  },
-  {
-    "id": "antislop-ui",
-    "name": "antislop-ui",
-    "description": "UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion, and page performance.",
-    "category": "UI & Visual",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop-ui"
-  },
-  {
-    "id": "antislop-copywriting",
-    "name": "antislop-copywriting",
-    "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns.",
-    "category": "Copywriting",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop-copywriting"
-  },
-  {
-    "id": "antislop-human",
-    "name": "antislop-human",
-    "description": "Human and accessibility skill for antislop. Contrast, keyboard, focus, states, and interaction affordances for real people.",
-    "category": "Accessibility",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop-human"
-  },
-  {
-    "id": "antislop-layoutmobile",
-    "name": "antislop-layoutmobile",
-    "description": "Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets.",
-    "category": "UI & Visual",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop-layoutmobile"
-  },
-  {
-    "id": "antislop-code",
-    "name": "antislop-code",
-    "description": "Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.",
-    "category": "Development",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
-    "subPath": "skills/antislop-code"
-  },
-  {
-    "id": "antigravity-guide",
-    "name": "antigravity-guide",
-    "description": "Comprehensive guide, quick reference, and sitemap for Google Antigravity, AGY CLI, and runtime architecture.",
-    "category": "System Guide",
-    "isPlugin": false,
-    "repoUrl": "",
-    "subPath": null
-  },
-  {
-    "id": "agy-customizations",
-    "name": "agy-customizations",
-    "description": "Comprehensive guide and reference for authoring custom skills, rules, hooks, and MCP servers in Antigravity.",
-    "category": "System Guide",
-    "isPlugin": false,
-    "repoUrl": "",
-    "subPath": null
-  },
-  {
-    "id": "generative_ui",
-    "name": "generative_ui",
-    "description": "Render rich interactive HTML widgets, diagrams, controls, and visual components inline or as artifacts.",
-    "category": "UI & Visual",
-    "isPlugin": false,
-    "repoUrl": "",
-    "subPath": null
-  },
-  {
-    "id": "api-design-principles",
-    "name": "api-design-principles",
-    "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers.",
-    "category": "Architecture",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/api-design-principles"
-  },
-  {
-    "id": "architect-review",
-    "name": "architect-review",
-    "description": "Software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD.",
-    "category": "Architecture",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/architect-review"
-  },
-  {
-    "id": "async-python-patterns",
-    "name": "async-python-patterns",
-    "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications.",
-    "category": "Development",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/async-python-patterns"
-  },
-  {
-    "id": "fastapi-pro",
-    "name": "fastapi-pro",
-    "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2.",
-    "category": "Development",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/fastapi-pro"
-  },
-  {
-    "id": "git-advanced-workflows",
-    "name": "git-advanced-workflows",
-    "description": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history.",
-    "category": "Development",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/git-advanced-workflows"
-  },
-  {
-    "id": "code-review-excellence",
-    "name": "code-review-excellence",
-    "description": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing.",
-    "category": "Quality & Filter",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/code-review-excellence"
-  },
-  {
-    "id": "backend-security-coder",
-    "name": "backend-security-coder",
-    "description": "Secure backend coding practices specializing in input validation, authentication, and API security.",
-    "category": "Security",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/backend-security-coder"
-  },
-  {
-    "id": "database-architect",
-    "name": "database-architect",
-    "description": "Database architect specializing in data layer design, technology selection, schema modeling, and scalable database architectures.",
-    "category": "Data",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/database-architect"
-  },
-  {
-    "id": "database-migration",
-    "name": "database-migration",
-    "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures.",
-    "category": "Data",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/database-migration"
-  },
-  {
-    "id": "performance-engineer",
-    "name": "performance-engineer",
-    "description": "Performance engineer specializing in modern observability, application optimization, and scalable system performance.",
-    "category": "Performance",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/performance-engineer"
-  },
-  {
-    "id": "e2e-testing-patterns",
-    "name": "e2e-testing-patterns",
-    "description": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs and improve confidence.",
-    "category": "Testing",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": "skills/e2e-testing-patterns"
-  },
-  {
-    "id": "superpowers",
-    "name": "superpowers",
-    "description": "An agentic skills framework & software development methodology that works.",
-    "category": "Developer Tools",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/obra/superpowers.git",
-    "subPath": null
-  },
-  {
-    "id": "impeccable",
-    "name": "impeccable",
-    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
-    "category": "UI & Visual",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/pbakaus/impeccable.git",
-    "subPath": ".gemini/skills/impeccable"
-  },
-  {
-    "id": "antigravity-skills-manager",
-    "name": "antigravity-skills-manager",
-    "description": "A curated collection of Agent Skills for Google Antigravity.",
-    "category": "Developer Tools",
-    "isPlugin": false,
-    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
-    "subPath": null
-  }
+ {
+  "id": "antislop",
+  "name": "antislop",
+  "description": "Anti Slop: Rules for AI Coding Agents. The core filter. Load always to stop generic AI slop.",
+  "category": "Quality & Filter",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop"
+ },
+ {
+  "id": "antislop-ui",
+  "name": "antislop-ui",
+  "description": "UI and visual skill for antislop. Use when building or editing any interface: color, layout, components, motion, and page performance.",
+  "category": "UI & Visual",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop-ui"
+ },
+ {
+  "id": "antislop-copywriting",
+  "name": "antislop-copywriting",
+  "description": "Copy and text skill for antislop. Use when writing or editing prose: headlines, tone, CTAs, and anti-AI-writing patterns.",
+  "category": "Copywriting",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop-copywriting"
+ },
+ {
+  "id": "antislop-human",
+  "name": "antislop-human",
+  "description": "Human and accessibility skill for antislop. Contrast, keyboard, focus, states, and interaction affordances for real people.",
+  "category": "Accessibility",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop-human"
+ },
+ {
+  "id": "antislop-layoutmobile",
+  "name": "antislop-layoutmobile",
+  "description": "Mobile layout skill for antislop. Use for layouts that reflow across screen sizes, phone to desktop: grids, overflow, tap targets.",
+  "category": "UI & Visual",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop-layoutmobile"
+ },
+ {
+  "id": "antislop-code",
+  "name": "antislop-code",
+  "description": "Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+  "subPath": "skills/antislop-code"
+ },
+ {
+  "id": "antigravity-guide",
+  "name": "antigravity-guide",
+  "description": "Comprehensive guide, quick reference, and sitemap for Google Antigravity, AGY CLI, and runtime architecture.",
+  "category": "System Guide",
+  "isPlugin": false,
+  "repoUrl": "",
+  "subPath": null
+ },
+ {
+  "id": "agy-customizations",
+  "name": "agy-customizations",
+  "description": "Comprehensive guide and reference for authoring custom skills, rules, hooks, and MCP servers in Antigravity.",
+  "category": "System Guide",
+  "isPlugin": false,
+  "repoUrl": "",
+  "subPath": null
+ },
+ {
+  "id": "generative_ui",
+  "name": "generative_ui",
+  "description": "Render rich interactive HTML widgets, diagrams, controls, and visual components inline or as artifacts.",
+  "category": "UI & Visual",
+  "isPlugin": false,
+  "repoUrl": "",
+  "subPath": null
+ },
+ {
+  "id": "api-design-principles",
+  "name": "api-design-principles",
+  "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers.",
+  "category": "Architecture",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/api-design-principles"
+ },
+ {
+  "id": "architect-review",
+  "name": "architect-review",
+  "description": "Software architect specializing in modern architecture patterns, clean architecture, microservices, event-driven systems, and DDD.",
+  "category": "Architecture",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/architect-review"
+ },
+ {
+  "id": "async-python-patterns",
+  "name": "async-python-patterns",
+  "description": "Master Python asyncio, concurrent programming, and async/await patterns for high-performance applications.",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/async-python-patterns"
+ },
+ {
+  "id": "fastapi-pro",
+  "name": "fastapi-pro",
+  "description": "Build high-performance async APIs with FastAPI, SQLAlchemy 2.0, and Pydantic V2.",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/fastapi-pro"
+ },
+ {
+  "id": "git-advanced-workflows",
+  "name": "git-advanced-workflows",
+  "description": "Master advanced Git workflows including rebasing, cherry-picking, bisect, worktrees, and reflog to maintain clean history.",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/git-advanced-workflows"
+ },
+ {
+  "id": "code-review-excellence",
+  "name": "code-review-excellence",
+  "description": "Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing.",
+  "category": "Quality & Filter",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/code-review-excellence"
+ },
+ {
+  "id": "backend-security-coder",
+  "name": "backend-security-coder",
+  "description": "Secure backend coding practices specializing in input validation, authentication, and API security.",
+  "category": "Security",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/backend-security-coder"
+ },
+ {
+  "id": "database-architect",
+  "name": "database-architect",
+  "description": "Database architect specializing in data layer design, technology selection, schema modeling, and scalable database architectures.",
+  "category": "Data",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/database-architect"
+ },
+ {
+  "id": "database-migration",
+  "name": "database-migration",
+  "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures.",
+  "category": "Data",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/database-migration"
+ },
+ {
+  "id": "performance-engineer",
+  "name": "performance-engineer",
+  "description": "Performance engineer specializing in modern observability, application optimization, and scalable system performance.",
+  "category": "Performance",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/performance-engineer"
+ },
+ {
+  "id": "e2e-testing-patterns",
+  "name": "e2e-testing-patterns",
+  "description": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs and improve confidence.",
+  "category": "Testing",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/e2e-testing-patterns"
+ },
+ {
+  "id": "superpowers",
+  "name": "superpowers",
+  "description": "An agentic skills framework & software development methodology that works.",
+  "category": "Developer Tools",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/obra/superpowers.git",
+  "subPath": null
+ },
+ {
+  "id": "impeccable",
+  "name": "impeccable",
+  "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+  "category": "UI & Visual",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/pbakaus/impeccable.git",
+  "subPath": ".gemini/skills/impeccable"
+ },
+ {
+  "id": "antigravity-skills-manager",
+  "name": "antigravity-skills-manager",
+  "description": "A curated collection of Agent Skills for Google Antigravity.",
+  "category": "Developer Tools",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": null
+ },
+ {
+  "id": "ai-engineer",
+  "name": "ai-engineer",
+  "description": "Build production-ready LLM applications, advanced RAG systems, and",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/ai-engineer"
+ },
+ {
+  "id": "langchain-architecture",
+  "name": "langchain-architecture",
+  "description": "Design LLM applications using the LangChain framework with agents, memory, and tool integration patterns. Use when building LangChain applications, implementing AI agents, or creating complex LLM w...",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/langchain-architecture"
+ },
+ {
+  "id": "rag-implementation",
+  "name": "rag-implementation",
+  "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or int...",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/rag-implementation"
+ },
+ {
+  "id": "prompt-engineer",
+  "name": "prompt-engineer",
+  "description": "Expert prompt engineer specializing in advanced prompting",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/prompt-engineer"
+ },
+ {
+  "id": "ml-engineer",
+  "name": "ml-engineer",
+  "description": "Build production ML systems with PyTorch 2.x, TensorFlow, and",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/ml-engineer"
+ },
+ {
+  "id": "frontend-developer",
+  "name": "frontend-developer",
+  "description": "Build React components, implement responsive layouts, and handle",
+  "category": "Frontend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/frontend-developer"
+ },
+ {
+  "id": "nextjs-app-router-patterns",
+  "name": "nextjs-app-router-patterns",
+  "description": "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Serve...",
+  "category": "Frontend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/nextjs-app-router-patterns"
+ },
+ {
+  "id": "react-state-management",
+  "name": "react-state-management",
+  "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions.",
+  "category": "Frontend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/react-state-management"
+ },
+ {
+  "id": "javascript-pro",
+  "name": "javascript-pro",
+  "description": "Master modern JavaScript with ES6+, async patterns, and Node.js",
+  "category": "Frontend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/javascript-pro"
+ },
+ {
+  "id": "python-pro",
+  "name": "python-pro",
+  "description": "Master Python 3.12+ with modern features, async programming,",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/python-pro"
+ },
+ {
+  "id": "debugging-strategies",
+  "name": "debugging-strategies",
+  "description": "Master systematic debugging techniques, profiling tools, and root cause analysis to efficiently track down bugs across any codebase or technology stack. Use when investigating bugs, performance iss...",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/debugging-strategies"
+ },
+ {
+  "id": "code-refactoring-refactor-clean",
+  "name": "code-refactoring-refactor-clean",
+  "description": "Refactor code with clean code principles, SOLID design patterns, and modern software engineering practices to improve quality, maintainability, and performance. Use when cleaning up or restructurin...",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/code-refactoring-refactor-clean"
+ },
+ {
+  "id": "api-documenter",
+  "name": "api-documenter",
+  "description": "Master API documentation with OpenAPI 3.1, AI-powered tools, and",
+  "category": "Documentation",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/api-documenter"
+ },
+ {
+  "id": "docs-architect",
+  "name": "docs-architect",
+  "description": "Creates comprehensive technical documentation from existing",
+  "category": "Documentation",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/docs-architect"
+ },
+ {
+  "id": "mermaid-expert",
+  "name": "mermaid-expert",
+  "description": "Create Mermaid diagrams for flowcharts, sequences, ERDs, and",
+  "category": "Documentation",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/mermaid-expert"
+ },
+ {
+  "id": "python-testing-patterns",
+  "name": "python-testing-patterns",
+  "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.",
+  "category": "Testing",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/python-testing-patterns"
+ },
+ {
+  "id": "javascript-testing-patterns",
+  "name": "javascript-testing-patterns",
+  "description": "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use...",
+  "category": "Testing",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/javascript-testing-patterns"
+ },
+ {
+  "id": "kubernetes-architect",
+  "name": "kubernetes-architect",
+  "description": "Expert Kubernetes architect specializing in cloud-native",
+  "category": "DevOps",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/kubernetes-architect"
+ },
+ {
+  "id": "github-actions-templates",
+  "name": "github-actions-templates",
+  "description": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or cre...",
+  "category": "DevOps",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/github-actions-templates"
+ },
+ {
+  "id": "cicd-automation-workflow-automate",
+  "name": "cicd-automation-workflow-automate",
+  "description": "Design efficient CI/CD pipelines, GitHub Actions workflows, and automated development processes that reduce manual work and accelerate delivery while maintaining quality and security. Use when crea...",
+  "category": "DevOps",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/cicd-automation-workflow-automate"
+ },
+ {
+  "id": "security-auditor",
+  "name": "security-auditor",
+  "description": "Expert security auditor specializing in DevSecOps, comprehensive",
+  "category": "Security",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/security-auditor"
+ },
+ {
+  "id": "secrets-management",
+  "name": "secrets-management",
+  "description": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD ...",
+  "category": "Security",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/secrets-management"
+ },
+ {
+  "id": "graphql-architect",
+  "name": "graphql-architect",
+  "description": "Master modern GraphQL with federation, performance optimization,",
+  "category": "Backend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/graphql-architect"
+ },
+ {
+  "id": "postgresql",
+  "name": "postgresql",
+  "description": "Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features",
+  "category": "Backend",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/postgresql"
+ },
+ {
+  "id": "flutter-expert",
+  "name": "flutter-expert",
+  "description": "Master Flutter development with Dart 3, advanced widgets, and",
+  "category": "Mobile",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/flutter-expert"
+ },
+ {
+  "id": "mobile-developer",
+  "name": "mobile-developer",
+  "description": "Develop React Native, Flutter, or native mobile apps with modern",
+  "category": "Mobile",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/mobile-developer"
+ },
+ {
+  "id": "data-scientist",
+  "name": "data-scientist",
+  "description": "Expert data scientist for advanced analytics, machine learning, and",
+  "category": "Data",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/data-scientist"
+ },
+ {
+  "id": "seo-content-writer",
+  "name": "seo-content-writer",
+  "description": "Writes SEO-optimized content based on provided keywords and topic",
+  "category": "Content",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+  "subPath": "skills/seo-content-writer"
+ },
+ {
+  "id": "docx",
+  "name": "docx",
+  "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document...",
+  "category": "Documents",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/docx"
+ },
+ {
+  "id": "pdf",
+  "name": "pdf",
+  "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, r...",
+  "category": "Documents",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/pdf"
+ },
+ {
+  "id": "pptx",
+  "name": "pptx",
+  "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting...",
+  "category": "Documents",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/pptx"
+ },
+ {
+  "id": "xlsx",
+  "name": "xlsx",
+  "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file ...",
+  "category": "Documents",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/xlsx"
+ },
+ {
+  "id": "frontend-design",
+  "name": "frontend-design",
+  "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated de...",
+  "category": "Design",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/frontend-design"
+ },
+ {
+  "id": "canvas-design",
+  "name": "canvas-design",
+  "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create ...",
+  "category": "Design",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/canvas-design"
+ },
+ {
+  "id": "mcp-builder",
+  "name": "mcp-builder",
+  "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate exte...",
+  "category": "AI & LLM",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/mcp-builder"
+ },
+ {
+  "id": "doc-coauthoring",
+  "name": "doc-coauthoring",
+  "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This ...",
+  "category": "Documentation",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/doc-coauthoring"
+ },
+ {
+  "id": "webapp-testing",
+  "name": "webapp-testing",
+  "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browse...",
+  "category": "Testing",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/webapp-testing"
+ },
+ {
+  "id": "skill-creator",
+  "name": "skill-creator",
+  "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a sk...",
+  "category": "Development",
+  "isPlugin": false,
+  "repoUrl": "https://github.com/anthropics/skills.git",
+  "subPath": "skills/skill-creator"
+ }
 ]
