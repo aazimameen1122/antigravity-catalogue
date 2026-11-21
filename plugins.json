@@ -1,0 +1,92 @@
+[
+  {
+    "id": "rtk",
+    "name": "rtk",
+    "description": "Rust Token Killer: CLI proxy that reduces LLM token consumption by 60-90% on common dev commands.",
+    "category": "Optimization",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/rtk-ai/rtk.git",
+    "subPath": null
+  },
+  {
+    "id": "antislop",
+    "name": "antislop",
+    "description": "Rules for an AI coding agent to filter out generic AI-generated UI designs, text, and code.",
+    "category": "Quality & Filter",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/miqdadbadjuber/anti-slop.git",
+    "subPath": null
+  },
+  {
+    "id": "superpowers",
+    "name": "superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "category": "Developer Tools",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/obra/superpowers.git",
+    "subPath": null
+  },
+  {
+    "id": "impeccable",
+    "name": "impeccable",
+    "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "category": "UI & Visual",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/pbakaus/impeccable.git",
+    "subPath": null
+  },
+  {
+    "id": "context-mode",
+    "name": "context-mode",
+    "description": "Free, local plugin that keeps tool output out of your coding agent's context window. Sandbox and SQLite FTS5 search, 99% fewer bytes in context.",
+    "category": "Optimization",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/mksglu/context-mode.git",
+    "subPath": null
+  },
+  {
+    "id": "agents-suite",
+    "name": "agents-suite",
+    "description": "Plugins, agents, skills, and commands for AI coding agents written once in Markdown and adapted to each tool by generators with validation.",
+    "category": "Developer Tools",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/wshobson/agents.git",
+    "subPath": null
+  },
+  {
+    "id": "planning-with-files",
+    "name": "planning-with-files",
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans and session recovery.",
+    "category": "Productivity",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/OthmanAdi/planning-with-files.git",
+    "subPath": null
+  },
+  {
+    "id": "sepia",
+    "name": "sepia",
+    "description": "De-AI writing skill for AI agents with narrative-architecture repair for fiction and venue-matched rules for prose.",
+    "category": "Quality & Filter",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/Nanako0129/sepia.git",
+    "subPath": null
+  },
+  {
+    "id": "gemini-agent-skills",
+    "name": "gemini-agent-skills",
+    "description": "A comprehensive collection of expert AI Agent Skills for Google Gemini, featuring tools to convert and optimize Claude Code agents.",
+    "category": "Developer Tools",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/saeed-vayghan/gemini-agent-skills.git",
+    "subPath": null
+  },
+  {
+    "id": "antigravity-skills-manager",
+    "name": "antigravity-skills-manager",
+    "description": "A curated collection of Agent Skills for Google Antigravity.",
+    "category": "Developer Tools",
+    "isPlugin": true,
+    "repoUrl": "https://github.com/rmyndharis/antigravity-skills.git",
+    "subPath": null
+  }
+]
